@@ -1,0 +1,48 @@
+.post {
+  margin: 1rem 0;
+  border: 2px solid #9e9e9e7e;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.post__meta {
+  font-size: 1rem;
+  color: #707070;
+  margin: 0;
+}
+
+.post__title {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  color: #3f3f3f;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.post__image {
+  height: 15rem;
+  width: 100%;
+}
+
+.post__actions {
+  text-align: right;
+}
+
+.post__content{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin: 0.6rem 0;
+}
+
+.post__meta{
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .post {
+    padding: 1rem;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
